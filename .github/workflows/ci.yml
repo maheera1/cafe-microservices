@@ -4,8 +4,7 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'microservices/**'  # Trigger only if changes are made in the microservices folder
+   
   pull_request:
     branches:
       - main
